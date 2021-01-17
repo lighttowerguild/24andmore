@@ -4,12 +4,12 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
     ["Effort", "Amount given"],
-    ["Coffee", 11],
-    ["Ibuprohen", 3],
-    ["Yeti", 3],
-    ["Hate", 4],
-    ["Neanderthals", 5],
-    ["Trace", 3],
+    ["Diva", 9],
+    ["Coffee", 2],
+    ["Fashionista", 3],
+    ["Mother", 5],
+    ["Grandmother", 5],
+    ["Trace", 1],
   ]);
 
   var options = {
