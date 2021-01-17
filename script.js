@@ -26,7 +26,7 @@ function drawChart() {
   chart.draw(data, options);
 }
 
-// Drop Down Menu 
+// Drop Down Menu
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
 function myFunction() {
@@ -46,3 +46,12 @@ window.onclick = function (event) {
     }
   }
 };
+
+function myFunctionPrank() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === "Thanks for helping! Click again!") {
+    x.innerHTML = "This is a prank from Chris Wilson!";
+  } else {
+    x.innerHTML = "Thanks for helping! Click again!";
+  }
+}
